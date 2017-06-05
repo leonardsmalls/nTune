@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Get to know yerself page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="jumbotron">
+                <h1 class="text-center"><span class="glyphicon glyphicon-fire"></span> N'Tunes</h1>
+                <hr>
+                <h2 class="text-center">Get in tune with yer tunes!</h2>
+                <br>
+                <div class="text-center">
+                    <a href="/api/bands">
+                        <button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span>I have a Personal Bandetta! Let me choose</button>
+                    </a>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Share, won't you</h4>
+                    </div>
+                    <br>
+                    <div class="panel-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="band-name">My favorite band at this exact moment is:</label>
+                                <br>
+                                <input type="text" class="form-control" id="band-name">
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="band-genre">I would describe the genre of my favorite band at this exact moment as:</label>
+                                <br>
+                                <input type="text" class="form-control" id="band-genre">
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <img src="images/sunlight.jpg" alt>
+                                <label for="band-genre">To me, sunlight is:</label>
+                                <br>
+                                <label class="radio-inline">
+                                    <input type="radio" value="1" name="optradio-day">Unbearable</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="2" name="optradio-day">Tolerable</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="3" name="optradio-day">Necessary</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="4" name="optradio-day">Okay</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="5" name="optradio-day">Pleasing</label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <img src="../images/night.jpg" alt>
+                                <label for="band-genre">To me, the darkness of night is:</label>
+                                <br>
+                                <label class="radio-inline">
+                                    <input type="radio" value="1" name="optradio-night">Unbearable</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="2" name="optradio-night">Tolerable</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="3" name="optradio-night">Necessary</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="4" name="optradio-night">Okay</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="5" name="optradio-night">Pleasing</label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="band-genre">Meat:</label>
+                                <br>
+                                <label class="radio-inline">
+                                    <input type="radio" value="1" name="optradio-meat">Get it off my plate!</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="2" name="optradio-meat">Have never really enjoyed</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="3" name="optradio-meat">Every now and then</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="4" name="optradio-meat">I try with every meal</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="5" name="optradio-meat">Nom Nom Nom!</label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="band-genre">Vegetable:</label>
+                                <br>
+                                <label class="radio-inline">
+                                    <input type="radio" value="1" name="optradio-vegetable">Get it off my plate!</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="2" name="optradio-vegetable">Have never really enjoyed</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="3" name="optradio-vegetable">Every now and then</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="4" name="optradio-vegetable">I try with every meal</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="5" name="optradio-vegetable">Nom Nom Nom!</label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="band-genre">How many times I have cried in my beer today:</label>
+                                <br>
+                                <label class="radio-inline">
+                                    <input type="radio" value="1" name="optradio-beercry">0</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="2" name="optradio-beercry">1</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="3" name="optradio-beercry">2</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="4" name="optradio-beercry">3</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="5" name="optradio-beercry">4+</label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="band-genre">Today I have stopped to smell this many roses:</label>
+                                <br>
+                                <label class="radio-inline">
+                                    <input type="radio" value="1" name="optradio-roses">0</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="2" name="optradio-roses">1</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="3" name="optradio-roses">2</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="4" name="optradio-roses">3</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="5" name="optradio-roses">4+</label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="band-genre">32&deg;F sounds:</label>
+                                <br>
+                                <label class="radio-inline">
+                                    <input type="radio" value="1" name="optradio-freezing">Freezing</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="2" name="optradio-freezing">Let me grab a jacket</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="3" name="optradio-freezing">Quite Nice</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="4" name="optradio-freezing">Please take my jacket</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="5" name="optradio-freezing">Boiling</label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="band-genre">212&deg;F sounds:</label>
+                                <br>
+                                <label class="radio-inline">
+                                    <input type="radio" value="1" name="optradio-boiling">Freezing</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="2" name="optradio-boiling">Let me grab a jacket</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="3" name="optradio-boiling">Quite Nice</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="4" name="optradio-boiling">Please take my jacket</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="5" name="optradio-boiling">Boiling</label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="band-genre">I feel like dancing:</label>
+                                <br>
+                                <label class="radio-inline">
+                                    <input type="radio" value="1" name="optradio-dance">Never!</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="2" name="optradio-dance">Maybe someday</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="3" name="optradio-dance">Meh.</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="4" name="optradio-dance">Sounds like a nice change</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="5" name="optradio-dance">I am right now!</label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="band-genre">I feel like chillaxing:</label>
+                                <br>
+                                <label class="radio-inline">
+                                    <input type="radio" value="1" name="optradio-chillax">Never!</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="2" name="optradio-chillax">Maybe someday</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="3" name="optradio-chillax">Meh.</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="4" name="optradio-chillax">Sounds like a nice change</label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="5" name="optradio-chillax">I am right now!</label>
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-primary submit">Submit</button>
+                        </form>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+            <br>
+        </div>
+        <br>
+        <footer class="footer">
+            <div class="container">
+                <p>N'tune guarantees a 100% match of yer musical tastes, 43% of the time!</p>
+                <p><a href="/api/bands">API Bands Link</a></p>
+            </div>
+        </footer>
+    </div>
+    <br>
+    <button type="button" class="btn btn-info btn-lg" id="modal-button" data-toggle="modal" data-target="#myModal" style="display: none">Open Modal</button>
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+$(".submit").on("click", function(e) {
+    e.preventDefault();
+    const ratingArray = [];
+    let ans = $('.form-group input:checked'),
+        diff,
+        difference = 0,
+        differenceArray = [],
+        goGet = false,
+        newBand = {
+          bandName: $("#band-name").val().trim(),
+          bandGenre: $("#band-genre").val().trim(),
+          bandRating: ratingArray
+        };
+    const inputs = $('.form-group input'),
+      questions = $('.form-group'),
+      getPost = function() {
+        let bandMatch,
+            theBands,
+            bestMatch;
+
+        $.get("/api/bands", function(data) {
+            theBands = data;
+            Array.min = function(arr) {
+                return Math.min.apply(Math, arr);
+            };
+            for (let a = 0; a < data.length; a++) {
+                for (let b = 0; b < data[a].bandRating.length; b++) {
+
+                    diff = parseInt(data[a].bandRating[b] - ratingArray[b]);
+                    if (diff < 0) {
+                        diff = Math.abs(diff);
+                    }
+                    difference += diff;
+                }
+                differenceArray.push(difference);
+                difference = 0;
+            }
+            
+            bestMatch = Array.min(differenceArray);
+
+            for (let i = 0; i < differenceArray.length; i++) {
+                if (differenceArray[i] == bestMatch) {
+                    bandMatch = i;
+                }
+            }
+        });
+
+        $.post("/api/bands", newBand,
+            function(data) {
+                if (data) {
+                    $('.modal-body').text(theBands[bandMatch].bandName);
+                    $('#modal-button').click();
+                } else {
+                    alert("Sorry, you may be best off singing to yourself.");
+                }
+
+                $("#band-name").val("");
+                $("#band-genre").val("");
+            });
+    };
+
+    if (ans.length < questions.length-2) {
+      alert('Answer all questions!');
+      goGet = false;
+     return;
+    } else {
+      for (let i = 0; i < questions.length-2; i++) {
+          let answer = ans[i].getAttribute('value');
+
+          if (answer != undefined) {
+              ratingArray.push(answer);
+              goGet = true;
+          } else if (answer == undefined) {
+              alert('Answer all questions');
+              goGet = false;
+              return;
+          }
+      }
+    }
+
+    if (goGet) {
+        getPost();
+    }
+});
+</script>
